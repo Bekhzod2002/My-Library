@@ -1,7 +1,7 @@
 export default class booksLoaderService {
   constructor() {
     this._apiBase = "AIzaSyBegn1BYkKYId9tsTKsCtjKa1IhDsFK3JM";
-    this._apiAddress = "https://developers.google.com/books/docs/v1/using#APIKey";
+    this._apiAddress = "https://www.googleapis.com/books/v1/volumes";
   }
 
   requestSender = async (url) => {
